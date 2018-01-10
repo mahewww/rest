@@ -1,5 +1,4 @@
 Dodanie pracownika:
-
 POST - http://localhost:8080/employee
 
 JSON body:
@@ -12,17 +11,14 @@ JSON body:
 
 
 Zwrócenie listy pracowników:
-
 GET - http://localhost:8080/employee
 
 
 Zwrócenie listy stanowisk wraz z liczbą pracowników na danym stanowisku:
-
 GET - http://localhost:8080/employee/position
 
 
 Usunięcie pracownika:
-
 DELETE - http://localhost:8080/employee/{id}
 
 
